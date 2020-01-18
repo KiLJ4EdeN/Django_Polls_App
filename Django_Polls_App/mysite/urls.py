@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    # if someone goes to the app how we should get the urls and templates
+    # where urls related to the polls app will be found.
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
 ]
